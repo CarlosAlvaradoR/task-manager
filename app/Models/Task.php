@@ -12,4 +12,7 @@ class Task extends Model
         'description', // Permite que 'description' sea asignado masivamente
         'status'
     ];
+
+    //  Si vamos a permitir todos los campos excepto algunos, usamos $guarded en lugar de $fillable
+    // protected $guarded = ['id']; // Bloquea solo el campo 'id', permite todo lo demás
 }
