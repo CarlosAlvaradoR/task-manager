@@ -2,7 +2,7 @@
 
 🔹 *Un sistema de gestión de tareas desarrollado con Laravel, Bootstrap y MySQL.*  
 
-![Captura de pantalla de la app](public/task.avif) *(opcional: añade una imagen del proyecto)*  
+![Captura de pantalla de la app](public/task.avif)  
 
 ## 🌟 **Características principales**  
 ✔️ Crear, editar y eliminar tareas  
