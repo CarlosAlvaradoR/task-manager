@@ -1,4 +1,4 @@
-# 🚀 **Nombre del Proyecto**  
+# 🚀 **Gestor de tareas**  
 
 🔹 *Un sistema de gestión de tareas desarrollado con Laravel, Bootstrap y MySQL.*  
 
@@ -12,7 +12,7 @@
 ✔️ Base de datos MySQL  
 
 ## 🛠️ **Tecnologías utilizadas**  
-- **Backend**: Laravel 10  
+- **Backend**: Laravel 12  
 - **Frontend**: Bootstrap 5, Blade  
 - **Base de datos**: MySQL  
 - **Despliegue**: Heroku / Vercel / Shared Hosting *(opcional)*  
@@ -25,18 +25,18 @@
 ## 📦 **Instalación**  
 1. Clona el repositorio:  
 
-   git clone https://github.com/tu-usuario/tu-proyecto.git
+   git clone https://github.com/CarlosAlvaradoR/task-manager.git
 
-2.- Instala dependencias:
+2. Instala dependencias:
 
 composer install
-3.- Configura el archivo .env:
+3. Configura el archivo .env:
 
 cp .env.example .env
 php artisan key:generate
-4.- Ejecuta migraciones:
+4. Ejecuta migraciones:
 
 php artisan migrate --seed
-5.- ¡Listo! Inicia el servidor:
+5. ¡Listo! Inicia el servidor:
 
 php artisan serve
