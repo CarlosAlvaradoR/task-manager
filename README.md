@@ -30,13 +30,16 @@
 2. Instala dependencias:
 
 composer install
+
 3. Configura el archivo .env:
 
 cp .env.example .env
 php artisan key:generate
+
 4. Ejecuta migraciones:
 
 php artisan migrate --seed
+
 5. ¡Listo! Inicia el servidor:
 
 php artisan serve
